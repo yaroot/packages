@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.yaroot</groupId>
+    <artifactId>cats-effect-netty-timer_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>cats-effect-netty-timer</description>
+    <version>0.1.6</version>
+    <name>cats-effect-netty-timer</name>
+    <organization>
+        <name>com.github.yaroot</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.11</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-common</artifactId>
+            <version>4.1.49.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect_2.12</artifactId>
+            <version>2.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.monix</groupId>
+            <artifactId>minitest_2.12</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.codecommit</groupId>
+            <artifactId>cats-effect-testing-minitest_2.12</artifactId>
+            <version>0.4.0</version>
+        </dependency>
+    </dependencies>
+</project>
